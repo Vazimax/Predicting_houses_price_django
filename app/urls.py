@@ -5,6 +5,4 @@ urlpatterns = [
     path('',home,name="home"),
     path('prediction/',prediction,name="prediction"),
     path('prediction/result',prediction_result),
-
-
 ]
